@@ -1,0 +1,738 @@
+@charset "utf-8";
+html, body {
+    height: 100%;
+    margin: 0 auto;
+}
+
+.wrap{
+    /*min-height: 1285px;*/
+    padding-bottom:5.53rem;
+}
+.newsLi h1,
+.recruit h1,
+.company_pro h1,
+.achievement h1,
+.newsInner h1,
+.connectUs h1,
+.aboutYD h1,
+.projectDisplay h1,
+.wisdom-cloud h1,
+.rubbish h1,
+.wrap h1 {
+    width: 100%;
+    height:3.57rem;
+    background:url(../images/logo.png) 0.71rem center no-repeat;
+    background-size: 24% 2.14rem;
+}
+.newsInner{
+    padding-bottom: 3.93rem;
+}
+.newsPadding{
+    margin-bottom: 4.29rem;
+}
+.newsLi h1 span,
+.recruit h1 span,
+.company_pro h1 span,
+.achievement h1 span,
+.newsInner h1 span,
+.connectUs h1 span,
+.aboutYD h1 span,
+.projectDisplay h1 span,
+.wisdom-cloud h1 span,
+.rubbish h1 span,
+.wrap h1 span{
+    float:right;
+    height: 3.57rem;
+    color: #033492;
+    font-size:0.86rem ;
+    line-height: 3.57rem;
+    padding-right:1.25rem;
+}
+.newsLi h1 {
+    border-bottom: 0.29rem solid #0160c4;
+}
+.swiper-container {
+    width: 100%;
+    height:13.57rem;
+    padding-top:0.29rem;
+    background:#033492;
+}
+.swiper-container img{
+    width: 100%;
+    height:13.57rem;
+}
+.wrap .about{
+    width:100%;
+}
+.rubbish-house {
+    width:100%;
+}
+.recruit h2,
+.company_pro h2,
+.achievement h2,
+.aboutyideng h2,
+.projectCon .rubbish-house-kind ,
+.projectCon h2,
+.about-wisdom-cloud h2,
+.rubbish-house h2,
+.partner h2,
+.news h2,
+.about h2{
+    width:100%;
+    height:2.5rem;
+    color: #009944;
+    text-indent: 0.71rem;
+    padding-top: 2.5rem;
+    font-size: 1.07rem;
+    background: url(../images/background-pic.png)5.5rem 3.24rem no-repeat;
+    background-size: 76% 0.18rem;
+}
+.aboutyideng h2,
+.projectCon h2,
+.about-wisdom-cloud h2,
+.rubbish-house h2 {
+    font-size: 1.21rem;
+    background: url(../images/bag-line.png)7.5rem 3.24rem no-repeat;
+    background-size: 68% 0.18rem;
+}
+.aboutyideng h2{
+    background: url(../images/bag-line.png)6.5rem 3.24rem no-repeat;
+    background-size: 72% 0.18rem;
+}
+.recruit .software,
+.company_pro h2{
+    background: url(../images/bag-line.png)8rem 3.24rem no-repeat;
+    background-size: 65% 0.18rem;
+}
+.rubbish-house .rubbishFlow{
+    background: url(../images/bag-line.png)8.5rem 3.24rem no-repeat;
+    background-size: 63% 0.18rem;
+}
+.projectCon .rubbish-house-kind {
+    background: url(../images/bag-line.png)9rem 3.24rem no-repeat;
+    background-size: 62% 0.18rem;
+}
+
+.proService{
+    width: 100%;
+    height:21.61rem;
+}
+.proService h2{
+    width:100%;
+    height:2.5rem;
+    color: #009944;
+    text-indent: 0.71rem;
+    padding-top: 2.5rem;
+    font-size: 1.07rem;
+    background: url(../images/background-pic.png)5.5rem 3.24rem no-repeat;
+    background-size: 76% 0.18rem;
+}
+.proService .product-left{
+    margin: 0 1.6rem 0 0.71rem;
+}
+.proService .product-left,
+.proService .product{
+    position:relative;
+    float: left;
+    width:44%;
+    height:7.93rem;
+    overflow: hidden;
+    margin-bottom: 1.43rem;
+}
+.proService .masking{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1.61rem;
+    line-height: 1.61rem;
+    text-align: center;
+    font-size: 1.07rem;
+    background:  rgba(0, 0, 0, 0.6);
+    color: #fff;
+    overflow: hidden;
+}
+.proService img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.news li{
+    width:94%;
+    height:4.68rem;
+    padding-top: 0.64rem;
+    margin: 0 auto;
+    border-bottom: 0.04rem solid #009944;
+}
+.news li .leftLi{
+    float: left;
+    width:3.7rem;
+    height: 3.7rem;
+    background: #009944;
+}
+.news li .leftLi .time{
+    height:2.2rem;
+    line-height: 2.2rem;
+    font-size: 1.29rem;
+}
+.news li .leftLi p{
+    color:#fff;
+    font-size: 0.5rem;
+    text-align: center;
+}
+.news li .rightLi1,
+.news li .rightLi{
+    float: right;
+    width:74%;
+    height: 3.32rem;
+    overflow: hidden;
+}
+.news li .rightLi1 h3,
+.news li .rightLi h3{
+    height: 1.12rem;
+    font-size: 0.93rem;
+    white-space:nowrap;
+    overflow:hidden; 
+    text-overflow:ellipsis;
+
+}
+.news li .rightLi1 p,
+.news li .rightLi p{
+    font-size: 0.71rem;
+    color:#4c4b4b;
+    line-height: 1.1rem;
+}
+.partner a{
+    float: left;
+    margin-left: 0.71rem;
+}
+.partner a img{
+    width: 7.64rem;
+    height: 3.68rem;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    width:90%;
+    padding: 0 5%;
+    height:3.93rem;
+    border-top: 0.04rem solid gray;
+    box-shadow: 0.04rem 0.04rem 0.2rem gray;
+    background:#fff;
+}
+.footer a {
+    float:left;
+    width:20%;
+    height:1.54rem;
+    padding-top: 2.39rem;
+    font-size: 0.79rem;
+    color:#898989;
+    text-align: center;
+    background:#fff;
+    text-decoration: none;
+    
+}
+.footer a:nth-child(1){
+    background: url(../images/home_active.png) center 0.71rem no-repeat;
+    background-size: 1.5rem 1.5rem;
+}
+.footer a:nth-child(2){
+    background: url(../images/business.png) center 0.71rem no-repeat;
+    background-size: 1.5rem 1.5rem;
+}
+.footer a:nth-child(3){
+    background: url(../images/product.png) center 0.71rem no-repeat;
+    background-size: 1.5rem 1.5rem;
+}
+.footer a:nth-child(4){
+    background: url(../images/news.png) center 0.71rem no-repeat;
+    background-size: 1.5rem 1.5rem;
+}
+.footer a:nth-child(5){
+    background: url(../images/us.png) center 0.71rem no-repeat;
+    background-size: 1.5rem 1.5rem;
+}
+.footer .active{
+    color:#039ee8;
+}
+.userCon,
+.newsCon,
+.productCon,
+.businessCon {
+    position: fixed;
+    left: 3.57rem;
+    bottom:3.93rem;
+    width: 36%;
+    height:7.14rem;
+    background: url(../images/hover_bac.png) no-repeat;
+    background-size: 100% 96%;
+}
+.userCon li,
+.newsCon li,
+.productCon li,
+.businessCon li{
+    width: 100%;
+    height:2.14rem;
+    line-height: 2.14rem;
+    text-align: center;
+    font-size: 0.86rem;
+    color:#6f6f6f;
+    /*border-radius: 5px;*/
+}
+.userCon .hoverStyle,
+.newsCon .hoverStyle,
+.productCon .hoverStyle,
+.businessCon .hoverStyle{
+    color:#fff;
+    background:#039ee8;
+}
+.productCon{
+    left:8.21rem;
+}
+.newsCon{
+    left:12.86rem;
+}
+.userCon{
+    background: url(../images/hover_bac1.png) no-repeat;
+    background-size: 100% 96%;
+    left:15.2rem;
+}
+.rubbish {
+    width: 100%;
+    padding-bottom: 3.93rem;
+}
+.rubbish-house .housePic img{
+    display: block;
+    width:100%;
+    height:23.14rem;
+}
+
+.rubbish-house .housePic1 img{
+    display: block;
+    width:100%;
+    height:21.86rem;
+}
+.rubbish-house .rubbish-divice img{
+    display: block;
+    width:100%;
+    height:22.61rem;
+}
+.rubbish-house .rubbish-divice{
+    margin-bottom: 4.29rem;
+}
+.about-wisdom-cloud p,
+.rubbish-house p{
+    width:94%;
+    margin: 0 auto;
+    line-height: 1.79rem;
+    font-size: 1.07rem;
+    text-indent: 2rem;
+    color: #666;
+}
+.about-wisdom-cloud p span{
+    color:#0160c4;
+}
+.wisdom-cloud{
+    padding-bottom: 3.93rem;
+}
+.about-wisdom-cloud .cloudPic{
+    width: 100%;
+    height: 17.14rem;
+    margin-bottom: 0.54rem;
+}
+.about-wisdom-cloud .cloudPic img{
+    display: block;
+    width: 100%;
+    height: 17.14rem;
+}
+.about-wisdom-cloud h3{
+    height: 2.18rem;
+    text-indent: 3%;
+    color: #009944;
+    font-size: 1.21rem;
+}
+.about-wisdom-cloud .PCsystem img{
+    display: block;
+    width: 94%;
+    height:19.64rem;
+    margin: 0 auto;
+    margin-bottom: 1.43rem;
+}
+.about-wisdom-cloud .mobileSystem img{
+    display: block;
+    width: 87%;
+    margin: 0 auto;
+    height:18.61rem;
+}
+.about-wisdom-cloud {
+    margin-bottom: 4.29rem;
+}
+.projectDisplay{
+    padding-bottom: 3.93rem;
+}
+.projectCon h3{
+    height:2.04rem;
+    font-size: 1.07rem;
+    color:#242424;
+    text-indent: 3%;
+}
+.someProject {
+    width: 94%;
+    padding: 0 3%;
+}
+.someProject dl{
+    float: left;
+    width: 49%;
+}
+.someProject dl dt img{
+    width: 100%;
+    height: 9.07rem;
+}
+.someProject dd p{
+    font-size: 0.86rem;
+    color: #009944;
+    text-align: center;
+    line-height: 1.5rem;
+    font-weight: bold;
+}
+.about-rubbish-house dd p{
+    line-height: 0;
+    height: 1.17rem;
+}
+.about-rubbish-house {
+    margin-bottom: 4.29rem;
+}
+.someProject .rightDl{
+    float: right;
+}
+.projectCon .compnayIntroduce{
+    width: 94%;
+    margin: 0 auto;
+    font-size: 1.07rem;
+    color:#242424;
+    text-indent: 2rem;
+    padding-top: 0.86rem;
+    line-height: 1.68rem;
+}
+
+.aboutyideng{
+    margin-bottom: 4.29rem;
+}
+.about p,
+.about dl,
+.aboutyideng p,
+.aboutyideng dl{
+    width: 94%;
+    padding: 0 3%;
+    margin: 0 auto;
+}
+.about dt,
+.aboutyideng dt{
+    float: right;
+    width: 38%;
+}
+.about dt img,
+.aboutyideng dt img{
+    width: 100%;
+    height: 11.29rem;
+}
+.about dd,
+.aboutyideng dd{
+    float: left;
+    width: 60%;
+    padding-right: 2%;
+    font-size: 1.07rem;
+    color: #242424;
+    line-height: 1.71rem;
+    text-indent: 2rem;
+}
+.about p,
+.aboutyideng p{
+    text-indent: 2rem;
+    font-size: 1.07rem;
+    color: #242424;
+    line-height: 1.71rem;
+}
+.culture {
+    width: 94%;
+    height: 3.21rem;
+    padding: 0 3%;
+    margin:  0 auto;
+    margin-bottom: 1.79rem;
+    background: url(../images/icon1.png) 0.71rem top no-repeat;
+    background-size: 2.21rem 2.21rem;
+    overflow: hidden;
+}
+.culture:nth-of-type(2){
+    background: url(../images/icon2.png) 0.71rem top no-repeat;
+    background-size: 2.21rem 2.21rem;
+}
+.culture:nth-of-type(3){
+    background: url(../images/icon3.png) 0.71rem top no-repeat;
+    background-size: 2.21rem 2.21rem;
+}
+.culture:nth-of-type(4){
+    background: url(../images/icon4.png) 0.71rem top no-repeat;
+    background-size: 2.21rem 2.21rem;
+}
+.culture:nth-of-type(5){
+    background: url(../images/icon5.png) 0.71rem top no-repeat;
+    background-size: 2.21rem 2.21rem;
+}
+.culture  p{
+    float: right;
+    width: 90%;
+    line-height: 1.61rem;
+    font-size: 1.07rem;
+    text-indent: 0;
+    padding: 0;
+}
+.culture  p span{
+    color: #0160c4;
+}
+.connectUs{
+    padding-bottom: 3.93rem;
+}
+.addr {
+    width: 94%;
+    padding: 0 3%;
+    margin: 0 auto;
+    margin-top: 2.18rem;
+    margin-bottom: 2.14rem;
+}
+.addr dl{
+    width:100%;
+}
+.addr dt{
+    float: left;
+    width: 32%;
+    height: 8.21rem;
+}
+.addr dt img{
+    display: block;
+    width: 100%;
+    height: 8.21rem;
+}
+.addr dd{
+    float: left;
+    width: 68%;
+}
+.addr dd p{
+    font-size: 1.07rem;
+    color: #242424;
+    line-height: 1.71rem;
+    padding-left: 1rem;
+}
+.addr dd .companyAddr{
+    color: #0160c4;
+}
+.addr .working{
+    width: 100%;
+    padding-top: 0.36rem;
+    line-height: 1.71rem;
+    font-size: 1.07rem;
+    text-indent: 2rem;
+}
+.connect{
+    margin-bottom: 4.29rem;
+}
+.achievementPic{
+    width: 94%;
+    height: 51.82rem;
+    padding: 0 3%;
+    margin-bottom: 4.29rem;
+
+}
+.achievementPic img{
+    display: block;
+    width: 100%;
+    height: 51.82rem;
+}
+.achievement{
+    padding-bottom: 3.93rem;
+}
+.company_pro{
+    padding-bottom: 3.93rem;
+}
+.company_pro .person{
+    width: 94%;
+    padding: 0 3%;
+}
+.company_pro .person dt{
+    float: left;
+    width: 44%;
+    height: 7.29rem;
+}
+.company_pro .person dt img{
+    width: 100%;
+    height:100%;
+}
+.company_pro .person dd{
+    float: left;
+    width: 56%;
+}
+.company_pro .person dd h3{
+    width: 100%;
+    height: 1.36rem;
+    text-indent: 0.71rem;
+    font-size: 1rem;
+    color: #242424;
+}
+.company_pro .person dd p{
+    line-height: 1.36rem;
+    font-size: 0.86rem;
+    color:#666;
+    padding-left: 0.71rem
+    /*text-indent: 0.71rem;*/
+}
+.company_pro .person{
+    margin-bottom: 1.5rem;
+}
+.company_pro .person:nth-of-type(3){
+    margin-bottom: 0;
+}
+.facDivice{
+    width: 94%;
+    padding: 0 3%;
+}
+.facDl{
+    float: left;
+    width: 26%;
+    height: 10.86rem;
+}
+.leftFacDl {
+    margin-right: 11%;
+}
+.rightFacDl{
+    margin-right: 5%;
+}
+.facDl dt{
+    width: 100%;
+    margin-bottom: 0.29rem;
+}
+.facDl dt img{
+    display: block;
+    width: 5.71rem;
+    height:5.71rem;
+    margin: 0 auto;
+}
+.facDl dd .titleSize{
+    font-size: 1rem;
+}
+.facDl dd p{
+    width: 100%;
+    font-size:0.86rem ;
+    line-height: 1.5rem;
+    text-align: center;
+
+}
+.bottomDl{
+    width: 30%;
+    height: 16rem;
+}
+.swiper-container .swiper-pagination-bullet{
+    background: #fff;
+}
+.recruit {
+    padding-bottom: 3.93rem;
+    margin-bottom: 4.29rem;
+}
+.recruit h3{
+    height: 2.14rem;
+    color:#0160c4;
+    font-size: 1.07rem;
+    font-weight: bold;
+    text-align: center;
+}
+.recruit h4{
+    width: 94%;
+    padding: 0 3%;
+    font-size: 1.07rem;
+    font-weight: bold;
+    line-height: 1.64rem;
+}
+.recruit h4 span{
+    font-weight:normal;
+}
+.recruit p{
+    /*text-indent: 2em;*/
+    width: 94%;
+    padding: 0 3%;
+    font-size: 1.07rem;
+    /*font-weight: bold;*/
+    line-height: 2rem;
+}
+.newsLi {
+    padding-bottom: 3.93rem;
+    margin-bottom: 4.29rem;
+}
+.newsLi .newsTab{
+    width: 94%;
+    padding:0  3%;
+}
+.newsLi .newsTab h3{
+    font-size: 1.21rem;
+    text-align: center;
+    font-weight: bold;
+    line-height: 3.14rem;
+}
+.newsLi .newsTab .date{
+    font-size: 1.07rem;
+    line-height: 2.43rem;
+    text-align: center;
+}
+.newsLi .newsTab p{
+    font-size: 1rem;
+    text-indent: 2em;
+    line-height: 2rem;
+    color: #666;
+}
+.newsLi .newsTab .newPic8,
+.newsLi .newsTab .newPic7,
+.newsLi .newsTab .newPic6,
+.newsLi .newsTab .newPic5,
+.newsLi .newsTab .newPic4,
+.newsLi .newsTab .newPic3,
+.newsLi .newsTab .newPic2,
+.newsLi .newsTab .newPic1{
+    display: block;
+    margin: 0 auto;
+    width: 44%;
+    height:6.64rem;
+}
+.newsLi .newsTab .newPic6{
+    width: 100%;
+    height: 14.29rem;
+}
+.newsLi .newsTab .newPic5{
+    width: 76%;
+    height: 16.5rem;
+}
+.newsLi .newsTab .newPic2{
+    height: 7.11rem;
+}
+.newsLi .newsTab .newPic3{
+    height: 9.11rem;
+}
+.newsLi .newsTab .newPic4{
+    height: 12.5rem;
+}
+.newsLi .newsTab .newPic8{
+    width: 79%;
+    height: 11.89rem;
+}
+.newsLi .newsTab .newPic7{
+    width: 81%;
+    height:13.18rem;
+}
+.newsLi .newsTab .aboutPic{
+    font-size: 1.07rem;
+    line-height: 4.14rem;
+    text-indent: 0;
+    text-align: center;
+}
+.newsLi .newsTab h4{
+    font-size: 1.07rem;
+    line-height: 4rem;
+    /*text-indent: 2rem;*/
+}
